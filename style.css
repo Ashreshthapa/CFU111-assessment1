@@ -1,0 +1,27 @@
+body {
+    background-color:lightpink;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 35px;
+ max-width: 900px;
+ margin:0 auto;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: yellow;
+}
+.greenparagraph {
+    color: darkcyan;
+}
+.redparagraph {
+    color: burlywood;
+}
+@media screen and (max-width: 700px) {
+    body {
+        background-color: goldenrod;
+    }
+    p {
+        font-size: 30px;
+    }
+}
